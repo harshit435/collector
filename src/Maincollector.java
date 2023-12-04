@@ -22,5 +22,6 @@ public class Maincollector{
         groupingResult.forEach((k,v)-> System.out.println("key is "+k+"\n values \n"+v));
         System.out.println("happy coding");
 
+
     }
 }
