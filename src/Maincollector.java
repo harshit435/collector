@@ -20,7 +20,7 @@ public class Maincollector{
 
         Map<Object,List<Student>> groupingResult=students.stream().collect(Collectors.groupingBy(Student::getCar));
         groupingResult.forEach((k,v)-> System.out.println("key is "+k+"\n values \n"+v));
-
+        System.out.println("happy coding");
 
     }
 }
